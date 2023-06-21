@@ -4,3 +4,5 @@ emplo_sat/data_exploration/xy_lasso.pickle
 .DS_Store
 emplo_sat/data_exploration/text.pickle
 emplo_sat/data_exploration/text2.pickle
+emplo_sat/data_exploration/important_features_p_values.pickle
+emplo_sat/data_exploration/important_features.pickle
