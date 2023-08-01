@@ -1,0 +1,67 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}                                               &       roic       & \textbf{  R-squared:         } &      0.643   \\
+\textbf{Model:}                                                       &       OLS        & \textbf{  Adj. R-squared:    } &      0.643   \\
+\textbf{Method:}                                                      &  Least Squares   & \textbf{  F-statistic:       } &  1.205e+04   \\
+\textbf{Date:}                                                        & Tue, 01 Aug 2023 & \textbf{  Prob (F-statistic):} &      0.00    \\
+\textbf{Time:}                                                        &     21:40:27     & \textbf{  Log-Likelihood:    } & -7.3108e+05  \\
+\textbf{No. Observations:}                                            &      221052      & \textbf{  AIC:               } &  1.462e+06   \\
+\textbf{Df Residuals:}                                                &      221018      & \textbf{  BIC:               } &  1.463e+06   \\
+\textbf{Df Model:}                                                    &          33      & \textbf{                     } &              \\
+\textbf{Covariance Type:}                                             &    nonrobust     & \textbf{                     } &              \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                                                                      & \textbf{coef} & \textbf{std err} & \textbf{t} & \textbf{P$> |$t$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
+\midrule
+\textbf{const}                                                        &      26.4824  &        0.345     &    76.739  &         0.000        &       25.806    &       27.159     \\
+\textbf{review\_overall}                                              &       0.0669  &        0.025     &     2.691  &         0.007        &        0.018    &        0.116     \\
+\textbf{review\_p2}                                                   &       0.2300  &        0.035     &     6.500  &         0.000        &        0.161    &        0.299     \\
+\textbf{review\_p3}                                                   &       0.0433  &        0.031     &     1.387  &         0.166        &       -0.018    &        0.105     \\
+\textbf{period\_2}                                                    &      -2.0719  &        0.144     &   -14.352  &         0.000        &       -2.355    &       -1.789     \\
+\textbf{period\_3}                                                    &       2.1452  &        0.127     &    16.883  &         0.000        &        1.896    &        2.394     \\
+\textbf{roic\_lag}                                                    &       0.6921  &        0.002     &   430.852  &         0.000        &        0.689    &        0.695     \\
+\textbf{ln\_employees}                                                &       0.2738  &        0.010     &    26.167  &         0.000        &        0.253    &        0.294     \\
+\textbf{rd\_intensity}                                                &      -4.6381  &        0.527     &    -8.804  &         0.000        &       -5.671    &       -3.606     \\
+\textbf{cash\_ratio}                                                  &      -3.0977  &        0.190     &   -16.278  &         0.000        &       -3.471    &       -2.725     \\
+\textbf{book\_to\_market}                                             &      -2.2131  &        0.021     &  -104.918  &         0.000        &       -2.254    &       -2.172     \\
+\textbf{sector\_Banque, assurance et services financiers}             &       2.4883  &        0.199     &    12.487  &         0.000        &        2.098    &        2.879     \\
+\textbf{sector\_Biotechnologie et sciences de la vie}                 &       2.1373  &        0.204     &    10.461  &         0.000        &        1.737    &        2.538     \\
+\textbf{sector\_Commerce de détail}                                   &       0.8480  &        0.148     &     5.716  &         0.000        &        0.557    &        1.139     \\
+\textbf{sector\_Commerce de gros}                                     &       3.9884  &        0.183     &    21.797  &         0.000        &        3.630    &        4.347     \\
+\textbf{sector\_Communications}                                       &       3.8556  &        0.148     &    26.068  &         0.000        &        3.566    &        4.146     \\
+\textbf{sector\_Construction}                                         &       3.7376  &        0.198     &    18.906  &         0.000        &        3.350    &        4.125     \\
+\textbf{sector\_Fabrication de bois, de meubles et de papier}         &       3.7495  &        0.274     &    13.688  &         0.000        &        3.213    &        4.286     \\
+\textbf{sector\_Fabrication de transport}                             &       0.4390  &        0.162     &     2.709  &         0.007        &        0.121    &        0.757     \\
+\textbf{sector\_Fabrication des produits alimentaires et de tabac}    &       1.5537  &        0.152     &    10.203  &         0.000        &        1.255    &        1.852     \\
+\textbf{sector\_Fabrication des textiles et des vêtements}            &      -1.9190  &        0.183     &   -10.470  &         0.000        &       -2.278    &       -1.560     \\
+\textbf{sector\_Impression et Edition}                                &       1.3163  &        0.206     &     6.388  &         0.000        &        0.912    &        1.720     \\
+\textbf{sector\_Industries extractives}                               &       6.3974  &        0.178     &    35.908  &         0.000        &        6.048    &        6.747     \\
+\textbf{sector\_Logiciel informatique}                                &      -0.9311  &        0.166     &    -5.610  &         0.000        &       -1.256    &       -0.606     \\
+\textbf{sector\_Machines industrielles, électriques et électroniques} &       1.8813  &        0.145     &    12.965  &         0.000        &        1.597    &        2.166     \\
+\textbf{sector\_Média et diffusion}                                   &       3.6563  &        0.210     &    17.395  &         0.000        &        3.244    &        4.068     \\
+\textbf{sector\_Métaux et produits métalliques}                       &       4.6658  &        0.192     &    24.260  &         0.000        &        4.289    &        5.043     \\
+\textbf{sector\_Produits chimiques, pétrole, caoutchouc et plastique} &       2.1292  &        0.148     &    14.426  &         0.000        &        1.840    &        2.419     \\
+\textbf{sector\_Produits en cuir, pierre, argile et verre}            &       5.2218  &        0.216     &    24.199  &         0.000        &        4.799    &        5.645     \\
+\textbf{sector\_Services aux entreprises}                             &       1.3703  &        0.148     &     9.229  &         0.000        &        1.079    &        1.661     \\
+\textbf{sector\_Services immobiliers}                                 &      -1.1920  &        0.359     &    -3.324  &         0.001        &       -1.895    &       -0.489     \\
+\textbf{sector\_Transports et entreposage}                            &      10.0463  &        0.177     &    56.669  &         0.000        &        9.699    &       10.394     \\
+\textbf{sector\_Utilitaires}                                          &      -3.9014  &        0.172     &   -22.725  &         0.000        &       -4.238    &       -3.565     \\
+\textbf{sector\_Voyage, personnel et loisirs}                         &       0.6599  &        0.164     &     4.026  &         0.000        &        0.339    &        0.981     \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lclc}
+\textbf{Omnibus:}       & 91441.534 & \textbf{  Durbin-Watson:     } &      0.025   \\
+\textbf{Prob(Omnibus):} &    0.000  & \textbf{  Jarque-Bera (JB):  } & 2916700.850  \\
+\textbf{Skew:}          &   -1.365  & \textbf{  Prob(JB):          } &       0.00   \\
+\textbf{Kurtosis:}      &   20.585  & \textbf{  Cond. No.          } &   1.12e+03   \\
+\bottomrule
+\end{tabular}
+%\caption{OLS Regression Results}
+\end{center}
+
+Notes: \newline
+ [1] Standard Errors assume that the covariance matrix of the errors is correctly specified. \newline
+ [2] The condition number is large, 1.12e+03. This might indicate that there are \newline
+ strong multicollinearity or other numerical problems.
